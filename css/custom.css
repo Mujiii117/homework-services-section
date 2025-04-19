@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Inter Tight", sans-serif;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    ;
+}
+.FeatureSection{
+    background-color:#ffeddf;
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+.page-width{
+    width: 1200px;
+    margin: auto;
+}
+.title{
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+        
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.column {
+    width: 49%;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.feature{
+    margin-top: 100px;
+}
+.feature h3 {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+}
+.feature p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 1.35;
+}
+.small-img {
+    width: 550px;
+    height: auto; /* maintains aspect ratio */
+  }
+  .cta{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .column2{
+   margin-top: 10px;
+
+  }
+  .column2 h5{
+    font-weight: 500;
+    letter-spacing: -1;
+    font-size: 14px;
+    background-color: #ff9780;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px;
+    
+}
+.button{
+    margin-bottom: 20px;
+    outline: auto;
+    border-radius: 30px;
+    width: max-content;
+  
+    
+}
+.button h5{
+    font-weight: 500;
+    letter-spacing: -1;
+    font-size: 16px;
+    text-align: left;
+    min-width: fit-content;
+    padding: 10px;
+   padding-left: 24px;
+   padding-right: 24px;
+}
